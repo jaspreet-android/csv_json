@@ -1,0 +1,17 @@
+{application, csv_json,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {csv_json_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    jsx,
+    erl_csv
+   ]},
+  {env, []},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
